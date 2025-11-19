@@ -15,12 +15,12 @@ const server = http.createServer((req, res) => {
 
     res.statusCode = 200; // HTTP status code for OK
     res.setHeader('Content-Type', 'text/plain'); // Set response header
-    res.end('Hello, World! iam 334445555 \n'); // Send the response
+    res.end('Hello, World! iam from cicd.yaml file  \n'); // Send the response
 });
 
 
 
 // Listen on port 3000
 server.listen(PORT, () => {
-    console.log(`Server running 333444555  on port: ${PORT}`);
+    console.log(`Server running hehe  on port: ${PORT}`);
 });
