@@ -16,12 +16,12 @@ const server = http.createServer((req, res) => {
 
     res.statusCode = 200; // HTTP status code for OK
     res.setHeader('Content-Type', 'text/plain'); // Set response header
-    res.end('Hello, World! version 2222  \n'); // Send the response
+    res.end('Hello, World! okok port from azure  \n'); // Send the response
 });
 
 
 
 // Listen on port 3000
 server.listen(PORT, () => {
-    console.log(`Server running v22222 on port: ${PORT}`);
+    console.log(`Server running V#3333 on port: ${PORT}`);
 });
