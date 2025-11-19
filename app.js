@@ -3,6 +3,8 @@
 // Import the 'http' module
 const http = require('http');
 
+const PORT = 8080;
+
 // Create a server that responds with "Hello, World!"
 const server = http.createServer((req, res) => {
     res.statusCode = 200; // HTTP status code for OK
@@ -10,7 +12,9 @@ const server = http.createServer((req, res) => {
     res.end('Hello, World!\n'); // Send the response
 });
 
+
+
 // Listen on port 3000
-server.listen(8080, 'localhost', () => {
-    console.log('Server running at http://localhost:3000/');
+server.listen(PORT, () => {
+    console.log('Server running 1111 : ', PORT);
 });
